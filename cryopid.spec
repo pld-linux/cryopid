@@ -1,4 +1,3 @@
-#
 Summary:	CryoPID - a process freezer for Linux
 Summary(pl):	CryoPID - zamra¿acz procesów dla Linuksa
 Name:		cryopid
@@ -28,7 +27,7 @@ wznowienia dzia³ania procesu, tak¿e po restarcie systemu b±d¼ nawet
 innej maszynie.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 %patch0 -p1
 
 %{__sed} -i 's/-g -Wall -O0/%{rpmcflags}/' Makefile
@@ -38,9 +37,9 @@ innej maszynie.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}/
-mv freeze $RPM_BUILD_ROOT%{_bindir}/
+install -d $RPM_BUILD_ROOT%{_bindir}
+
+install freeze $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
