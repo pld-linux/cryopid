@@ -18,15 +18,15 @@ diff -uNr cryopid-0.4.orig/cryopid.h cryopid-0.4/cryopid.h
  
  /* writer_raw.c */
 -extern struct stream_ops raw_ops;
-+// extern struct stream_ops raw_ops;
++/* extern struct stream_ops raw_ops; */
  
  /* writer_buffered.c */
 -extern struct stream_ops buf_ops;
-+// extern struct stream_ops buf_ops;
++/* extern struct stream_ops buf_ops; */
  
  /* writer_lzo.c */
 -extern struct stream_ops lzo_ops;
-+// extern struct stream_ops lzo_ops;
++/* extern struct stream_ops lzo_ops; */
  
  /* process.c */
  int do_syscall(pid_t pid, struct user_regs_struct *regs);
