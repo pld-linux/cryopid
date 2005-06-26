@@ -21,10 +21,10 @@ and save it to a file. This file can then be used to resume the
 process later on, either after a reboot or even on another machine.
 
 %description -l pl
-CryoPID umo¿liwia na zapamiêtanie stanu dzia³aj±cego procesu w
-Linuksie i zapisanie go do pliku. Plik taki mo¿e zostaæ u¿yty do
+CryoPID umo¿liwia na zapamiêtanie stanu dzia³aj±cego pod Linuksem
+procesu i zapisanie go do pliku. Plik taki mo¿e zostaæ u¿yty do
 wznowienia dzia³ania procesu, tak¿e po restarcie systemu b±d¼ nawet
-innej maszynie.
+na innej maszynie.
 
 %prep
 %setup -q
