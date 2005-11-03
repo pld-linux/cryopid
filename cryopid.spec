@@ -11,7 +11,6 @@ Source0:	http://dagobah.ucc.asn.au/wacky/%{name}-%{version}.tar.gz
 Patch0:		%{name}-build.patch
 URL:		http://cryopid.berlios.de/
 BuildRequires:	lzo-static
-BuildRequires:	sed >= 4.0
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,10 +29,10 @@ na innej maszynie.
 %setup -q
 %patch0 -p1
 
-%{__sed} -i 's/-g -Wall -O0/%{rpmcflags}/' Makefile
-
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
