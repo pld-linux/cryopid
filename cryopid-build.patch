@@ -1,6 +1,6 @@
 diff -uNr cryopid-0.5.3.orig/cpimage.h cryopid-0.5.3/cpimage.h
---- cryopid-0.5.3.orig/src/cpimage.h	2005-04-25 01:13:01.000000000 +0200
-+++ cryopid-0.5.3/src/cpimage.h	2005-06-24 01:24:34.000000000 +0200
+--- cryopid-0.5.3.orig/cpimage.h	2005-04-25 01:13:01.000000000 +0200
++++ cryopid-0.5.3/cpimage.h	2005-06-24 01:24:34.000000000 +0200
 @@ -4,7 +4,7 @@
  #include <sys/socket.h>
  #include <linux/types.h>
@@ -11,8 +11,8 @@ diff -uNr cryopid-0.5.3.orig/cpimage.h cryopid-0.5.3/cpimage.h
  #include <linux/unistd.h>
  #include <asm/ldt.h>
 diff -uNr cryopid-0.5.3.orig/cryopid.h cryopid-0.5.3/cryopid.h
---- cryopid-0.5.3.orig/src/cryopid.h	2005-04-25 01:13:01.000000000 +0200
-+++ cryopid-0.5.3/src/cryopid.h	2005-06-24 01:26:41.000000000 +0200
+--- cryopid-0.5.3.orig/cryopid.h	2005-04-25 01:13:01.000000000 +0200
++++ cryopid-0.5.3/cryopid.h	2005-06-24 01:26:41.000000000 +0200
 @@ -33,13 +33,13 @@
  void *xmalloc(int len);
  
