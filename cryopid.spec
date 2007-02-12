@@ -1,5 +1,5 @@
 Summary:	CryoPID - a process freezer for Linux
-Summary(pl):	CryoPID - zamraøacz procesÛw dla Linuksa
+Summary(pl.UTF-8):   CryoPID - zamra≈ºacz proces√≥w dla Linuksa
 Name:		cryopid
 Version:	0.4
 Release:	0.1
@@ -19,10 +19,10 @@ CryoPID allows you to capture the state of a running process in Linux
 and save it to a file. This file can then be used to resume the
 process later on, either after a reboot or even on another machine.
 
-%description -l pl
-CryoPID umoøliwia na zapamiÍtanie stanu dzia≥aj±cego pod Linuksem
-procesu i zapisanie go do pliku. Plik taki moøe zostaÊ uøyty do
-wznowienia dzia≥ania procesu, takøe po restarcie systemu b±dº nawet
+%description -l pl.UTF-8
+CryoPID umo≈ºliwia na zapamiƒôtanie stanu dzia≈ÇajƒÖcego pod Linuksem
+procesu i zapisanie go do pliku. Plik taki mo≈ºe zostaƒá u≈ºyty do
+wznowienia dzia≈Çania procesu, tak≈ºe po restarcie systemu bƒÖd≈∫ nawet
 na innej maszynie.
 
 %prep
