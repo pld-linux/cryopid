@@ -1,5 +1,5 @@
 Summary:	CryoPID - a process freezer for Linux
-Summary(pl.UTF-8):   CryoPID - zamrażacz procesów dla Linuksa
+Summary(pl.UTF-8):	CryoPID - zamrażacz procesów dla Linuksa
 Name:		cryopid
 Version:	0.4
 Release:	0.1
